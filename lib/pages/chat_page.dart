@@ -5,6 +5,7 @@ import 'package:chatapp_firebase/widgets/widgets.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 
+//채팅페이지
 class ChatPage extends StatefulWidget {
   final String groupId;
   final String groupName;
