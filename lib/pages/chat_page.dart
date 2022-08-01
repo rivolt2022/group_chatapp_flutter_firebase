@@ -50,7 +50,7 @@ class _ChatPageState extends State<ChatPage> {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        elevation: 0,
+        elevation: 0,//엘러그레이션 높이라는 뜻이고 앱의 붕떠 있는 느낌의 효과를 위해 사용
         title: Text(widget.groupName),
         backgroundColor: Theme.of(context).primaryColor,
         actions: [
